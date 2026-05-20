@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <Nullable>disable</Nullable>
+    <AssemblyName>RespawnUpgrade</AssemblyName>
+    <RootNamespace>RespawnUpgrade</RootNamespace>
+  </PropertyGroup>
+
+  <!-- EXILED 框架（本地引用 _extracted_exiled） -->
+  <ItemGroup>
+    <Reference Include="Exiled.API">
+      <HintPath>..\_extracted_exiled\SCP Secret Laboratory\LabAPI\dependencies\global\Exiled.API.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.Events">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\Exiled.Events.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.Loader">
+      <HintPath>..\_extracted_exiled\SCP Secret Laboratory\LabAPI\plugins\global\Exiled.Loader.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.CreditTags">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\Exiled.CreditTags.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.CustomItems">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\Exiled.CustomItems.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.CustomRoles">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\Exiled.CustomRoles.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.Permissions">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\Exiled.Permissions.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- EXILED 依赖项 -->
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SemanticVersioning">
+      <HintPath>..\_extracted_exiled\SCP Secret Laboratory\LabAPI\dependencies\global\SemanticVersioning.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>..\_extracted_exiled\EXILED\Plugins\dependencies\System.ComponentModel.DataAnnotations.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+
+  <!-- LabAPI 依赖（EXILED 底层依赖 LabApi） -->
+  <ItemGroup>
+    <Reference Include="LabApi">
+      <HintPath>..\_extracted_labapi\LabApi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\_extracted_labapi\CommandSystem.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- 游戏/引擎依赖（来自 _extracted_labapi） -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\_extracted_labapi\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\_extracted_labapi\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>..\_extracted_labapi\Mirror.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="NorthwoodLib">
+      <HintPath>..\_extracted_labapi\NorthwoodLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\_extracted_labapi\YamlDotNet.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\_extracted_labapi\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\_extracted_labapi\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\_extracted_labapi\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
