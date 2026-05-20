@@ -32,7 +32,7 @@
 ### 安装
 
 1. 确保服务器已安装 EXILED 9.x
-2. 从 [Releases](https://github.com/MMK-208/RespawnUpgrade/releases) 下载 `RespawnUpgrade.dll`
+2. 从 [Releases](https://github.com/xuanlaoliu/RespawnUpgrade/releases) 下载 `RespawnUpgrade.dll`
 3. 将 `RespawnUpgrade.dll` 放入 `EXILED/Plugins/` 目录
 4. 重启服务器或使用 EXILED 重载插件
 
@@ -88,7 +88,7 @@ dotnet build
 ### Installation
 
 1. Make sure your server runs EXILED 9.x
-2. Download `RespawnUpgrade.dll` from [Releases](https://github.com/MMK-208/RespawnUpgrade/releases)
+2. Download `RespawnUpgrade.dll` from [Releases](https://github.com/xuanlaoliu/RespawnUpgrade/releases)
 3. Place the DLL into `EXILED/Plugins/`
 4. Restart the server or reload plugins via EXILED
 
