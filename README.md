@@ -50,7 +50,7 @@ debug: false
 ### 自行编译
 
 ```bash
-git clone https://github.com/MMK-208/RespawnUpgrade.git
+git clone https://github.com/xuanlaoliu/RespawnUpgrade.git
 cd RespawnUpgrade
 dotnet build
 ```
@@ -104,7 +104,7 @@ debug: false
 ### Building from Source
 
 ```bash
-git clone https://github.com/MMK-208/RespawnUpgrade.git
+git clone https://github.com/xuanlaoliu/RespawnUpgrade.git
 cd RespawnUpgrade
 dotnet build
 ```
